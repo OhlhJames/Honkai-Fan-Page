@@ -1,0 +1,32 @@
+{
+  "name": "corknfork",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "index.js",
+  "scripts": {
+    "install": " cd server && npm i && cd ../client && npm i",
+    "dev": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
+    "seed": "npm run seed --prefix server",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^2.7.1",
+    "@stripe/stripe-js": "^3.5.0",
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.4.0",
+    "node-fetch": "^3.3.2",
+    "punycode": "^2.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "stripe": "^15.9.0",
+    "vite": "^5.2.11",
+    "source-map-loader": "^1.0.0"
+  }
+}
