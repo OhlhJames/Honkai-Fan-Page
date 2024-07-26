@@ -1,11 +1,11 @@
 :root {
-  --standardGreen:#408881;
-  --darkGreen:#1e4e49 ;
+  --standardBlue:#585ab1;
+  --darkBlue:#444692 ;
   --offWhite:#fff8f8;
   line-height: 1.5;
   font-weight: 400;
   color: var(--offWhite);
-  background-color: var(--standardGreen);
+  background-color: var(--standardBlue);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -15,7 +15,7 @@
 
 header {
   display: flex;
-  background-color: var(--darkGreen);
+  background-color: var(--darkBlue);
   align-items: center;
   justify-content: space-between;
 }
@@ -31,12 +31,12 @@ a {
   font-weight: 500;
   color: var(--offWhite);
   margin: 5px;
-  background-color: var(--standardGreen);
+  background-color: var(--standardBlue);
   padding: 5px;
   border-radius: 5px;
 }
 a:hover {
-  color: #987A67;
+  color: #B1AF58;
 }
 
 body {
@@ -87,7 +87,7 @@ footer{
   width: 350px;
   margin: 10px;
   padding: 5px;
-  border-color: var(--darkGreen);
+  border-color: var(--darkBlue);
   border-style: double;
   border-radius: 5px;
   justify-content: center
@@ -97,7 +97,7 @@ footer{
   width: 65%;
   margin: 10px;
   padding: 5px;
-  border-color: var(--darkGreen);
+  border-color: var(--darkBlue);
   border-style: double;
   border-radius: 5px;
   justify-content: center
@@ -107,7 +107,7 @@ footer{
   width: 400px;
   margin: 10px;
   padding: 30px;
-  border-color: var(--darkGreen);
+  border-color: var(--darkBlue);
   border-style: double;
   border-radius: 5px;
   flex-direction:row;
