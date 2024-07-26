@@ -10,7 +10,7 @@ export default function Header() {
               About me
               </Link>
               <Link to="/">
-              Portfolio
+              Home
               </Link>
               <Link to="/resume">
               Resume
