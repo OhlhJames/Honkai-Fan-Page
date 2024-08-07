@@ -7,7 +7,7 @@ import './index.css';
 import App from './App';
 import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/HomePage';
-import ContactPage from './pages/ContactPage';
+import CalcPage from './pages/CalcPage';
 import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
 
@@ -23,8 +23,8 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: 'contact',
-        element: <ContactPage />,
+        path: 'calc',
+        element: <CalcPage />,
       },
       {
         path: 'about',

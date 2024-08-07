@@ -1,4 +1,4 @@
-export default function ContactPage () {
+export default function CalcPage () {
     return(
         <div class = "column-container">
             <div>

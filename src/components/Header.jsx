@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <header>
-        <h1>James Ohlhausen</h1>
+        <h1>Honkai Fan Page</h1>
         <nav>
             <ul class = "navbar">
               <Link to="/about">
@@ -15,8 +15,8 @@ export default function Header() {
               <Link to="/resume">
               Resume
               </Link>
-              <Link to="/contact">
-              Contact Me
+              <Link to="/calc">
+              Calculator
               </Link>
             </ul>
         </nav>
